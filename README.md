@@ -36,7 +36,7 @@ Configured route tables to manage traffic flow between public and private tiers 
 
 ## Security Groups (Network Security)
 
-Implemented security groups as stateful firewalls to enforce least-privilege access between the Load Balancer, application servers, and database layer, significantly reducing the attack surface.
+Implemented security groups as stateful firewalls to enforce least privilege access between the Load Balancer, application servers, and database layer, significantly reducing the attack surface.
 
 ## Secure Database Layer (RDS)
 
@@ -44,7 +44,7 @@ Deployed an RDS MySQL database in private subnets, ensuring the data layer is fu
 
 ## Internet Gateway
 
-Configured an Internet Gateway to enable controlled internet access for public-facing resources while keeping backend systems private.
+Configured an Internet Gateway to enable controlled internet access for public facing resources while keeping backend systems private.
 
 ## Final Result
 
