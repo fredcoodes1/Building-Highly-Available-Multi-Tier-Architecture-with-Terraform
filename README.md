@@ -38,7 +38,7 @@ Configured route tables to manage traffic flow between public and private tiers 
 
 Implemented security groups as stateful firewalls to enforce least-privilege access between the Load Balancer, application servers, and database layer, significantly reducing the attack surface.
 
-## Secure Database Layer (RDS MySQL)
+## Secure Database Layer (RDS)
 
 Deployed an RDS MySQL database in private subnets, ensuring the data layer is fully isolated from the internet and only accessible from the application tier.
 
